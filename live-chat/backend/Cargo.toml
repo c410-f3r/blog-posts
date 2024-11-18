@@ -1,0 +1,9 @@
+[dependencies]
+tokio = { default-features = false, features = ["macros", "rt-multi-thread"], version = "1.0" }
+tokio-rustls = { default-features = false, features = ["ring"], version = "0.26" }
+wtx = { default-features = false, features = ["http-server-framework", "nightly", "tokio", "tokio-rustls", "web-socket"], version = "0.24" }
+
+[package]
+edition = "2021"
+name = "backend"
+version = "0.1.0"
