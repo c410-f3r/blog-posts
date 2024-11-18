@@ -72,7 +72,7 @@
 		📝
 		<a
 			class="duration-200 hover:text-blue-700 text-blue-900 transition underline"
-			href="https://c410-f3r.github.io/thoughts/buildtin-a-real-time-chat-using-web-sockets-over-http2-streams"
+			href="https://c410-f3r.github.io/thoughts/building-a-real-time-chat-using-web-sockets-over-http2-streams"
 		>
 			Building a real-time chat using WebSockets over HTTP/2 streams
 		</a>
