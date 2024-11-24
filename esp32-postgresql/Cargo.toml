@@ -1,0 +1,22 @@
+[dependencies]
+embassy-executor = { default-features = false, features = ["task-arena-size-32768"], version = "0.6" }
+embassy-net = { default-features = false, features = ["tcp", "dhcpv4-hostname"], version = "0.4" }
+embedded-dht-rs = { default-features = false, features = ["dht22"], version = "0.3" }
+embedded-tls = { default-features = false, git = "https://github.com/drogue-iot/embedded-tls" }
+esp-alloc = { default-features = false, version = "0.5" }
+esp-backtrace = { default-features = false, features = ["esp32", "panic-handler", "println"], version = "0.14" }
+esp-hal = { default-features = false, features = ["esp32"], version = "0.21" }
+esp-hal-embassy = { default-features = false, features = ["esp32", "executors", "integrated-timers"], version = "0.4" }
+esp-println = { default-features = false, features = ["auto", "esp32"], version = "0.12" }
+esp-wifi = { default-features = false, features = ["async", "dhcpv4", "embassy-net", "esp32", "esp-alloc", "ipv4", "tcp", "wifi"], version = "0.10" }
+rand = { default-features = false, features = ["std_rng"], version = "0.8" }
+rustls-pemfile = { default-features = false, version = "2.0" }
+static_cell = { default-features = false, version = "2.0" }
+wtx = { default-features = false, features = ["embassy-net", "embedded-tls", "portable-atomic-util", "postgres"], path = "../../wtx/wtx" }
+
+[package]
+authors = ["Caio <c410.f3r@gmail.com>"]
+edition = "2021"
+license = "Apache-2.0"
+name = "esp32-postgres"
+version = "0.1.0"

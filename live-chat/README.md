@@ -1,5 +1,3 @@
-# Live chat
+# Building a real-time chat using WebSockets over HTTP/2 streams
 
 <https://c410-f3r.github.io/thoughts/building-a-real-time-chat-using-web-sockets-over-http2-streams/>
-
-Demonstrates the use of WebSockets over HTTP/2 streams to create a real-time chat application.

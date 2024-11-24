@@ -1,3 +1,15 @@
+[profile.release]
+codegen-units = 1
+debug = false
+debug-assertions = false
+incremental = false
+lto = true
+opt-level = 'z'
+overflow-checks = false
+panic = 'abort'
+rpath = false
+strip = "symbols"
+
 [workspace]
-members = ["live-chat/backend"]
+members = ["esp32-postgresql", "live-chat/backend"]
 resolver = "2"
